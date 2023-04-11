@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Contact from './components/contact/Contact';
+import SideBar from './components/sideBar/SIdeBar';
+import Projects from './components/projects/Projects';
+import Resume from './components/resume/Resume';
 
 function App() {
+
+  const handleNavClick = (selction) => {
+    const element = document.getElementById(selction);
+    element.scrollIntoView({behavior: 'smooth'})
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SideBar onNavClick={handleNavClick} />
+      <Resume onNavClick={handleNavClick} />
+      <About onNavClick={handleNavClick} /> 
+      <Projects onNavClick={handleNavClick} />
+      <Contact onNavClick={handleNavClick} /> 
     </div>
   );
 }
