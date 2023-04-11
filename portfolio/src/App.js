@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Contact from './components/contact/Contact';
-import SideBar from './components/sideBar/SIdeBar';
+import SideBar from './components/sideBar/SideBar';
 import Projects from './components/projects/Projects';
 import Resume from './components/resume/Resume';
 
