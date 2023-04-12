@@ -3,7 +3,7 @@ import './App.css';
 import Contact from './components/contact/Contact';
 import SideBar from './components/sideBar/SideBar';
 import Projects from './components/projects/Projects';
-import Resume from './components/resume/Resume';
+import Header from './components/header/Header';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <SideBar onNavClick={handleNavClick} />
-      <Resume onNavClick={handleNavClick} />
+      <Header onNavClick={handleNavClick} />
       <About onNavClick={handleNavClick} /> 
       <Projects onNavClick={handleNavClick} />
       <Contact onNavClick={handleNavClick} /> 
