@@ -4,7 +4,7 @@ import Contact from './components/contact/Contact';
 import SideBar from './components/sideBar/SideBar';
 import Projects from './components/projects/Projects';
 import Header from './components/header/Header';
-import About from './components/about';
+import About from './components/about/About';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <SideBar onNavClick={handleNavClick} />
       <Header onNavClick={handleNavClick} />
       <About onNavClick={handleNavClick} /> 

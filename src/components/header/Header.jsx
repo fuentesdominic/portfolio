@@ -1,3 +1,6 @@
+import { VscGithub } from 'react-icons/vsc';
+import { SlSocialLinkedin } from 'react-icons/sl';
+
 const Header = () => {
   return (
     <div className="header">
@@ -16,7 +19,7 @@ const Header = () => {
           <h3>
             Letting ideas come to life, one line of code at a time.
           </h3>
-          <a href="" target="_blank"><button className="header-linkedin-icon">Linkedin<SiSocialLinkedin /></button> </a>
+          <a href="" target="_blank"><button className="header-linkedin-icon">Linkedin<SlSocialLinkedin /></button> </a>
           <a href="" target="_blank"><button className="header-github-icon">Github<VscGithub /></button></a>
         </div>
     </div>
