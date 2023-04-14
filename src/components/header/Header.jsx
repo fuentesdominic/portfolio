@@ -14,8 +14,10 @@ const Header = () => {
         </div>
         <div className="slogan">
           <h3>
-            "If you find a job you love, you'll never work again.." - Winston Churchill
+            Letting ideas come to life, one line of code at a time.
           </h3>
+          <a href="" target="_blank"><button className="header-linkedin-icon">Linkedin<SiSocialLinkedin /></button> </a>
+          <a href="" target="_blank"><button className="header-github-icon">Github<VscGithub /></button></a>
         </div>
     </div>
   </div>
