@@ -35,6 +35,9 @@ const Header = ({ onNavClick }) => {
           <a className='header-github-icon' href='https://github.com/fuentesdominic' target="_blank"><VscGithub />
           </a>
         </div>
+        <div className='header-image-div'>
+          <img className='header-image' src='https://i.imgur.com/ZZfDl7W.jpeg' alt='' /> 
+        </div>
         <div className='scroll-button'>
           <Link onClick={() => onNavClick('about')}><SlArrowDown /></Link>
         </div>
@@ -42,4 +45,5 @@ const Header = ({ onNavClick }) => {
   </div>
   )
 }
+
 export default Header

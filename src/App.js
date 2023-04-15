@@ -16,10 +16,10 @@ function App() {
   return (
     <div className="app">
       <SideBar onNavClick={handleNavClick} />
-      <Header onNavClick={handleNavClick} />
-      <About onNavClick={handleNavClick} /> 
-      <Projects onNavClick={handleNavClick} />
-      <Contact onNavClick={handleNavClick} /> 
+      <Header onNavClick={handleNavClick} id="header"/>
+      <About onNavClick={handleNavClick} id="about"/> 
+      <Projects onNavClick={handleNavClick} id="projects"/>
+      <Contact onNavClick={handleNavClick} id="contact"/> 
     </div>
   );
 }
