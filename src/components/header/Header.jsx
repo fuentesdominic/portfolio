@@ -1,7 +1,16 @@
 import { VscGithub } from 'react-icons/vsc';
 import { SlSocialLinkedin } from 'react-icons/sl';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { SlArrowDown } from 'react-icons/sl';
 
-const Header = () => {
+const Header = ({ onNavClick }) => {
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const handleMenuClick = () => {
+    setShowMenu(!setShowMenu);
+  }
   return (
     <div className="header">
       <div className="header-div">
@@ -19,8 +28,15 @@ const Header = () => {
           <h3>
             Letting ideas come to life, one line of code at a time.
           </h3>
-          <a href="" target="_blank"><button className="header-linkedin-icon">Linkedin<SlSocialLinkedin /></button> </a>
-          <a href="" target="_blank"><button className="header-github-icon">Github<VscGithub /></button></a>
+        </div>
+        <div className='header-links'>
+          <a className='header-linkdin-icon' href='https://www.linkedin.com/in/dominicfuentes1/' target="_blank"><SlSocialLinkedin />
+          </a>
+          <a className='header-github-icon' href='https://github.com/fuentesdominic' target="_blank"><VscGithub />
+          </a>
+        </div>
+        <div className='scroll-button'>
+          <Link onClick={() => onNavClick('about')}><SlArrowDown /></Link>
         </div>
     </div>
   </div>
