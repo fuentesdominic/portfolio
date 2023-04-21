@@ -1,10 +1,6 @@
-.header {
-    background: linear-gradient(to bottom, #833ab4, #e81717, #fcb045) top;
-}
 .header-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* #020024 */
