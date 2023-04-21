@@ -14,9 +14,7 @@ function App() {
 
   return (
     <div className="app">
-      <nav>
       <SideBar onNavClick={handleNavClick} />
-      </nav>
       <Header onNavClick={handleNavClick} id="header"/>
       <About onNavClick={handleNavClick} id="about"/> 
       <Projects onNavClick={handleNavClick} id="projects"/>

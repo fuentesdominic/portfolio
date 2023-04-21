@@ -14,7 +14,7 @@ const Header = ({ onNavClick }) => {
             Dominic Fuentes
           </h1>
         </div>
-        <div className="jobtitle">
+        <div className="job-title">
           <h2>
             Full Stack Developer
           </h2>
@@ -25,9 +25,9 @@ const Header = ({ onNavClick }) => {
           </h3>
         </div>
         <div className='header-links'>
-          <a className='header-linkdin-icon' href='https://www.linkedin.com/in/dominicfuentes1/' target="_blank" rel='noreferrer'><SlSocialLinkedin />
+        <a className='header-linkdin-icon' href='https://www.linkedin.com/in/dominicfuentes1/' target="_blank" rel='noreferrer'><SlSocialLinkedin />
           </a>
-          <a className='header-github-icon' href='https://github.com/fuentesdominic' target="_blank" rel='noreferrer'><VscGithub />
+        <a className='header-github-icon' href='https://github.com/fuentesdominic' target="_blank" rel='noreferrer'><VscGithub />
           </a>
         </div>
         <div className='header-image-div'>

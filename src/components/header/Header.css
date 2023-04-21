@@ -4,3 +4,73 @@
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.name {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: Gill Sans;
+    font-size: 35px;
+}
+
+.job-title {
+    font-family: Gill Sans;
+    font-size: 20px;
+}
+
+.slogan {
+    font-family: Gill Sans;
+    font-size: 15px;
+}
+
+.header-linkdin-icon {
+    margin: 15px;
+    font-size: 50px;
+    color: #181717;
+}
+
+.header-linkdin-icon:hover {
+    color: #6a05f5;
+}
+
+.header-github-icon {
+    margin: 15px;
+    font-size: 50px;
+    color: #181717
+}
+
+.header-github-icon:hover {
+    color: #6a05f5;
+}
+
+.header-image {
+    margin: 20px;
+    width: 35vh;
+    height: 40vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.scroll-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.scroll-button:hover {
+    transform: scale(1.5);
+    color: #181717;
+    cursor: pointer;
+}
