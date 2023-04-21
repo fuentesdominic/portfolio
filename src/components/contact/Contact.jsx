@@ -14,7 +14,7 @@ const Contact = ({ id }) => {
     <div className='contact-page' id={id}>
       <div className='contact-div'>
         <div className='contact-title-div'>
-          <h2>Contact Me</h2>
+          <h1>Contact Me</h1>
           <h3>Please leave your Name, Email, and a brief message. I look forward to hearing from you!</h3>
           <p style={{ color: 'white'}}>St. Louis, MO</p>
           <p><FiPhoneCall className='contact-icon' /> +1(314) 218-8188</p>

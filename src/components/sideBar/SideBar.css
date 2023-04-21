@@ -1,0 +1,32 @@
+.nav {
+    background-color: black;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item {
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.resume-btn {
+    background-color: #22c1c3;
+    border-radius: 5px;
+    border: none;
+}
+
+.resume-btn:hover {
+    background: linear-gradient(to left, #22c1c3, #fdbb2d);
+    transform: scale(1.1);
+    cursor: pointer;
+}

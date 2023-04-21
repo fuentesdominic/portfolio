@@ -1,3 +1,4 @@
+import './Header.css';
 import { VscGithub } from 'react-icons/vsc';
 import { SlSocialLinkedin } from 'react-icons/sl';
 import { Link } from 'react-router-dom';
