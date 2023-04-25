@@ -17,9 +17,7 @@ const About = ({ id }) => {
       </div>
       <div className='skills-list'>
         <div className='skill-card'>
-          <div className='skill-title-text'>
             <h3 className='skill-title-text'>Front End</h3>
-          </div>
           <div className='skill-card-skills'>
             <div className='skill-list'>
               <AiFillHtml5 className='skill-icon' style={{ color: '#e34c26' }} />
