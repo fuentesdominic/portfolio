@@ -16,12 +16,13 @@ const Contact = ({ id }) => {
         <div className='contact-title-div'>
           <h1>Contact Me</h1>
           <h3>Please leave your Name, Email, and a brief message. I look forward to hearing from you!</h3>
-          <p style={{ color: 'white'}}>St. Louis, MO</p>
+          <p>St. Louis, MO</p>
           <p><FiPhoneCall className='contact-icon' /> +1(314) 218-8188</p>
           <p><AiOutlineMail className='contact-icon' /> dominicfuentes1@yahoo.com </p>
         </div>
         <div className='contact-form-div'>
           <form onSubmit={handleSubmit} className='form'>
+            <label className='contact-label'>Your Name</label>
             <input
               id='name'
               type='name'
@@ -33,6 +34,7 @@ const Contact = ({ id }) => {
               field='name'
               errors={state.errors}
               />
+            <label className='contact-label'>Email Address</label>
             <input 
               id='email'
               type='email'
@@ -44,6 +46,7 @@ const Contact = ({ id }) => {
               field='email'
               errors={state.errors}
               />
+            <label className='contact-label'>Messsage</label>  
             <textarea
               id='message'
               name='message'
@@ -53,7 +56,9 @@ const Contact = ({ id }) => {
               field='message'
               errors={state.errors}
               />
-            <button type='submit' disabled={state.submitting}>Submit</button>
+            <div className='button-div'>
+            <button className='contact-button' type='submit' disabled={state.submitting}>Submit</button>
+            </div>
           </form>
         </div>
       </div>
