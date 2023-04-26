@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+.item:hover {
+    transform: scale(1.1);
+}
+
 .resume-btn {
     background-color: #22c1c3;
     border-radius: 5px;
@@ -32,4 +36,6 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
 

@@ -59,17 +59,18 @@ const Projects = ({id}) => {
 
   return (
     <div className='projects-page' id={id}>
-      <div className='projects-page-title'>
-        <h3>Projects</h3>
-      </div>
+      {/* <div className='projects-page-title'> */}
+        <h3 className='projects-page-title'>Projects</h3>
+      {/* </div> */}
       <div className='projects'>
         {projects.map((project) => (
           <div className='project-div'>
             <img src={project.img} alt='' />
             <h2>{project.projectName}</h2>
             <h3>{project.technologyUsed}</h3>
-            <p>{project.description}</p>
-            <p>Links:&ensp; <a href={project.links.github} target='_blank' rel='noreferrer'>Github <VscGithub /></a> &ensp; <a href={project.links.live} target='_blank' rel='noreferrer'>Live <BiPlayCircle /> </a> </p>
+            <p className='project-info'>{project.description}</p>
+            <p className='project-link'>Links:&ensp; <a
+             className='project-nav' href={project.links.github} target='_blank' rel='noreferrer'>Github <VscGithub /></a> &ensp; <a className='project-nav' href={project.links.live} target='_blank' rel='noreferrer'>Live <BiPlayCircle /> </a> </p>
           </div>
         ))}
       </div>
