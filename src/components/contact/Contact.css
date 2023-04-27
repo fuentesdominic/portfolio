@@ -36,9 +36,18 @@
     float: right;
 } */
 
+.contact-page {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 .contact-div {
     font-family: Gill Sans;
-    width: 600px;
+    width: 650px;
+    height: 450px;
     background-color: wheat;
     display: flex;
     justify-content: center;
@@ -56,32 +65,54 @@
     border-radius: 10px;
     margin-right: 1rem ;
     height: 400px;
-    
+    /* opacity: 0.9; */
 }
 
 .form {
-    /* width: 25%;
-    height: 90%; */
     margin: 1rem;
+    font-size: 20px;
 }
 
-.input {
-    
+input {
+    font-family: Gill Sans;
+    font-size: 16px;
     justify-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
+
+textarea#message {
+    font-family: Gill Sans;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
 }
 
 .contact-label {
     display: flex;
-    margin-top: 1rem;
-    margin-bottom: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
 }
 
 .button-div {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+}
+
+.contact-button {
+    font-family: Gill Sans;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+
 }
 
 .contact-title-div {

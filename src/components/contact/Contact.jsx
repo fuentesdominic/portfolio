@@ -49,6 +49,7 @@ const Contact = ({ id }) => {
             <label className='contact-label'>Messsage</label>  
             <textarea
               id='message'
+              rows='3'
               name='message'
               />
             <ValidationError
