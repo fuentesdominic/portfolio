@@ -1,6 +1,7 @@
 import './Contact.css';
 import { FiPhoneCall } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
+import { MdLocationOn } from 'react-icons/md';
 import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = ({ id }) => {
@@ -16,9 +17,9 @@ const Contact = ({ id }) => {
         <div className='contact-title-div'>
           <h1>Contact Me</h1>
           <h3>Please leave your Name, Email, and a brief message. I look forward to hearing from you!</h3>
-          <p>St. Louis, MO</p>
-          <p><FiPhoneCall className='contact-icon' /> +1(314) 218-8188</p>
-          <p><AiOutlineMail className='contact-icon' /> dominicfuentes1@yahoo.com </p>
+          <p className='contact-location'><MdLocationOn />St. Louis, MO</p>
+          <a href='tel:+13142188818' className='contact-number'><FiPhoneCall className='contact-icon' /> +1(314) 218-8188</a>
+          <a href='mailto:dominicfuentes1@yahoo.com' className='contact-email'><AiOutlineMail className='contact-icon' /> dominicfuentes1@yahoo.com</a>
         </div>
         <div className='contact-form-div'>
           <form onSubmit={handleSubmit} className='form'>

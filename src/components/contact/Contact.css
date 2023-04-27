@@ -46,7 +46,7 @@
 
 .contact-div {
     font-family: Gill Sans;
-    width: 650px;
+    width: 750px;
     height: 450px;
     background-color: wheat;
     display: flex;
@@ -60,10 +60,57 @@
     box-shadow: 2px 2px 5px;
 }
 
+.contact-title-div {
+    margin: 1rem;
+    height: 400px;
+    position: relative;
+}
+
+.contact-title-div p {
+    font-size: 18px;
+}
+
+.contact-location {
+    position: absolute;
+    bottom: 5rem;
+}
+
+.contact-number {
+    position: absolute;
+    bottom: 3rem;
+    color: black;
+    font-size: 16px;
+}
+
+.contact-number:hover {
+    text-decoration: none;
+}
+
+.contact-email {
+    position: absolute;
+    bottom: 1rem;
+    color: black;
+}
+
+.contact-email:hover {
+    text-decoration: none;
+}
+
+.contact-title-div h1 {
+    font-size: 45px;
+}
+
+.contact-title-div h3 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
 .contact-form-div {
     background-color: white;
     border-radius: 10px;
-    margin-right: 1rem ;
+    margin-right: 1.25rem ;
     height: 400px;
     /* opacity: 0.9; */
 }
@@ -114,14 +161,3 @@ textarea#message {
     box-shadow: 0px 0px 3px black;
 
 }
-
-.contact-title-div {
-    margin: 1rem;
-    height: 400px;
-}
-
-.contact-title-div h3 {
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
