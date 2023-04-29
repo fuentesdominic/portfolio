@@ -4,7 +4,7 @@
     padding: 1.5rem;
     display: flex;
     justify-content: center;
-    /* width: 100%; */
+
 }
 
 .nav-items {
@@ -38,10 +38,79 @@
     cursor: pointer;
 }
 
+
+/* keep old breakpoints if want to revisit various sizes */
 /* Break Points */
 
+/* galaxy fold */
+@media screen
+    and (max-width: 280px) {
+
+    .nav {
+        display: flex;
+        justify-self: center;
+        padding: 1rem !important;
+    }
+
+    .item {
+        margin: 0.25rem !important;
+        font-size: 14px !important;
+    }
+}
+
+/* galaxy s8+ */
+@media screen 
+    and (max-width: 360px)
+     {
+        .item {
+            margin: 0.5rem !important;
+            font-size: 16px !important;
+        }   
+    }
+
+/* iphone se */
+/* @media screen 
+    and (max-width: 375px)
+{
+    .nav {
+        display: flex;
+        justify-self: center;
+        padding: 0.5rem;
+      }
+      
+      .nav-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      
+      .item {
+        margin: 0.4rem;
+        font-size: 18px;
+      }    
+    
+} */
+
+/* iphone 12pro */
+/* @media screen 
+    and (max-width: 390px) {
+        .item {
+            margin: 0.5rem;
+        }
+    } */
+
+/* galaxy s20 ultra */
+/* @media screen
+    and (max-width: 412px) {
+    .item {
+        margin: 0.6rem;
+        font-size: 18px;
+    }
+}  */
+
 /* iphone xr */
-@media only screen 
+@media screen 
     and (max-width: 414px)
   {
     .nav {
@@ -64,68 +133,8 @@
       
   }
 
-/* iphone se */
-@media only screen 
-    and (max-width: 375px)
-{
-    .nav {
-        display: flex;
-        justify-self: center;
-        padding: 0.5rem;
-      }
-      
-      .nav-items {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-      }
-      
-      .item {
-        margin: 0.4rem;
-        font-size: 18px;
-      }    
-    
-}
-
-/* iphone 12pro */
-@media only screen 
-    and (max-width: 390px) {
-        .item {
-            margin: 0.5rem;
-        }
-    }
-
-/* galaxy s8+ */
-@media only screen 
-    and (max-width: 360px) {
-        .item {
-            margin: 0.5rem;
-            font-size: 16px;
-        }   
-    }
-
-
-/* galaxy s20 ultra */
-@media screen
-    and (max-width: 412px) {
-    .item {
-        margin: 0.6rem;
-        font-size: 18px;
-    }
-}
-
-/* surface pro 7 */
-@media screen
-    and (max-width: 912px) {
-    .item {
-        margin: 0.5rem;
-        font-size: 25px;
-    }
-}
-
 /* surface duo */
-@media screen
+/* @media screen
     and (max-width: 540px) {
 
     .nav {
@@ -138,30 +147,21 @@
         margin: 0.5rem;
         font-size: 20px;
     }
-}
+} */
 
-/* galaxy fold */
-@media screen
-    and (max-width: 280px) {
-
-    .nav {
-        display: flex;
-        justify-self: center;
-        padding: 1rem;
-    }
-
+/* surface pro 7 */
+ /* @media screen
+    and (max-width: 912px) {
     .item {
-        margin: 0.25rem;
-        font-size: 14px;
+        margin: 0.5rem;
+        font-size: 25px;
     }
-}
+} */
 
-@media screen
+/* @media only screen
     and (max-width: 1280px) {
 
-    .nav {
-        display: flex;
-        justify-self: center;
+    .nav-large {
         padding: 1.75rem;
     }
 
@@ -169,4 +169,5 @@
         margin: 0.75rem;
         font-size: 24px;
     }
-}
+}   */
+

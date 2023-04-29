@@ -95,24 +95,20 @@ h3 {
     }
     
     h1 {
-      font-size: 2.5rem;
+      font-size: 36px !important;
     }
     
     h2 {
-      font-size: 1.5rem;
+      font-size: 22px !important;
     }
     
     h3 {
-      font-size: 1rem;
+      font-size: 12px !important;
       margin-bottom: 1.5rem;
     }
     
     .name {
       font-size: 2rem;
-    }
-    
-    .job-title {
-      font-size: 1.2rem;
     }
     
     .slogan {
@@ -121,17 +117,94 @@ h3 {
     
     .header-linkdin-icon,
     .header-github-icon {
-      font-size: 2rem;
-      margin: 0.5rem;
+      font-size: 2rem !important;
+      margin: 0.5rem !important;
     }
     
     .header-image {
-      width: 60%;
+      width: 50%;
       height: auto;
+    }
+
+    .header-image-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .scroll-button {
-      font-size: 1.2rem;
+      font-size: 12px !important;
+    }
+
+    .scroll-button:after {
+        transform: scale(1.5) !important;
+        color: #181717;
     }
   }
+
+@media screen and (max-width: 540px) {
+    .header {
+        width: 100%;
+        height: auto;
+    }
+        
+        .header-div {
+          padding-top: 1rem;
+          padding-bottom: 2rem;
+        }
+        
+        h1 {
+          font-size: 45px;
+        }
+        
+        h2 {
+          font-size: 26px;
+        }
+        
+        h3 {
+          font-size: 14px;
+          margin-bottom: 1.5rem;
+        }
+        
+        .name {
+          font-size: 2rem;
+        }
+        
+        .slogan {
+          font-size: 1rem;
+        }
+        
+        .header-linkdin-icon,
+        .header-github-icon {
+          font-size: 2rem;
+          margin: 0.5rem;
+        }
+        
+        .header-image {
+          width: 50%;
+          height: auto;
+        }
+    
+        .header-image-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .scroll-button {
+          font-size: 12px;
+        }
+    
+        .scroll-button:after {
+            transform: scale(1.5);
+            color: #181717;
+        }
+      }
+
+/* left if needing to format for larger screens */
+/* @media screen and (max-width: 1024px) {
+    .scroll-button {
+        margin-bottom: 18rem;
+    }
+} */
   
