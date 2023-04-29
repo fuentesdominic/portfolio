@@ -1,3 +1,9 @@
+/* Styling */
+.header {
+    width: 100%;
+    height: 85vh;
+}
+
 .header-div {
     display: flex;
     flex-direction: column;
@@ -10,7 +16,7 @@ h1 {
 }
 
 h2 {
-    margin: 20px;
+    margin: 0.5rem;
 }
 
 h3 {
@@ -19,7 +25,7 @@ h3 {
 }
 
 .name {
-    margin-top: 15px;
+    margin-top: 2rem;
     margin-bottom: 0;
     font-family: Gill Sans;
     font-size: 35px;
@@ -36,7 +42,7 @@ h3 {
 }
 
 .header-linkdin-icon {
-    margin: 15px;
+    margin: 1.25rem;
     font-size: 50px;
     color: #181717;
 }
@@ -46,7 +52,7 @@ h3 {
 }
 
 .header-github-icon {
-    margin: 15px;
+    margin: 1.25rem;
     font-size: 50px;
     color: #181717
 }
@@ -56,7 +62,7 @@ h3 {
 }
 
 .header-image {
-    margin: 20px;
+    margin: 1.5rem;
     width: 35vh;
     height: 40vh;
     border-radius: 10px;
@@ -65,8 +71,8 @@ h3 {
 }
 
 .scroll-button {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     font-size: 20px;
 }
 
@@ -75,3 +81,57 @@ h3 {
     color: #181717;
     cursor: pointer;
 }
+
+/* Break Points */
+@media only screen and (max-width: 414px) {
+.header {
+    width: 100%;
+    height: auto;
+}
+    
+    .header-div {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+    
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .name {
+      font-size: 2rem;
+    }
+    
+    .job-title {
+      font-size: 1.2rem;
+    }
+    
+    .slogan {
+      font-size: 1rem;
+    }
+    
+    .header-linkdin-icon,
+    .header-github-icon {
+      font-size: 2rem;
+      margin: 0.5rem;
+    }
+    
+    .header-image {
+      width: 60%;
+      height: auto;
+    }
+    
+    .scroll-button {
+      font-size: 1.2rem;
+    }
+  }
+  

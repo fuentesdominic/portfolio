@@ -1,6 +1,15 @@
+/* Styling */
 .app {
   height: auto;
   width: 100%;
   background: linear-gradient( #fdbb2d 45%, #22c1c3 55% );
+  overflow-x: hidden;
   
 }
+
+/* Break Points */
+/* @media only screen 
+  and (device-width: 414px) 
+  and (device-height: 896px)
+  and (-wekit-device-pixel-ratio: 2) {} */
+
