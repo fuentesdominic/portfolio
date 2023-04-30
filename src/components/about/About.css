@@ -125,12 +125,12 @@
     }
     
     .skills-title {
-      font-size: 28px !important;
+      /* font-size: 28px !important; */
       margin-top: 1rem;
     }
 
     .skills-title-text {
-        font-size: 28px !important;
+        font-size: 30px !important;
         margin: 1rem;
     }
     
@@ -197,6 +197,7 @@
     }
   }
 
+  /* break points working on almost all styles of phones, may need to add break points for stuff above 800px */
   /* @media screen and (max-width: 900px) {
     .about {
         width: 100%;
