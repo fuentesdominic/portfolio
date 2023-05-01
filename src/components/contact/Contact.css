@@ -9,7 +9,7 @@
     font-family: Gill Sans;
     width: 750px;
     height: 450px;
-    background-color: wheat;
+    background: linear-gradient(85deg, rgba(106,5,245,0.9) 0%, rgba(0,141,255,0.9) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,12 +34,13 @@
 .contact-location {
     position: absolute;
     bottom: 5rem;
+    color: rgba(255,255,255,0.9);
 }
 
 .contact-number {
     position: absolute;
     bottom: 3rem;
-    color: black;
+    color: rgba(255,255,255,0.9);
     font-size: 16px;
 }
 
@@ -50,7 +51,7 @@
 .contact-email {
     position: absolute;
     bottom: 1rem;
-    color: black;
+    color: rgba(255,255,255,0.9);
 }
 
 .contact-email:hover {
@@ -59,21 +60,22 @@
 
 .contact-title-div h1 {
     font-size: 45px;
+    color: rgba(255,255,255,1);
 }
 
 .contact-title-div h3 {
     font-size: 20px;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    color: rgba(255,255,255,1);
 }
 
 
 .contact-form-div {
-    background-color: white;
+    background-color: rgba(255,255,255, 0.5);
     border-radius: 10px;
     margin-right: 1.25rem ;
     height: 400px;
-    /* opacity: 0.9; */
 }
 
 .form {

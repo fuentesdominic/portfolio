@@ -10,10 +10,9 @@
 }
 
 .skills-list {
-    display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    background-color: white;
+    background: linear-gradient(85deg, rgba(106,5,245,1) 0%, rgba(0,141,255,1) 100%);
     width: 45%;
     height: 90%;
     border-radius: 10px;
@@ -32,7 +31,7 @@
 
 
 .skill-list {
-    width: 7rem;
+    width: 12rem;
     height: 7rem;
     display: flex;
     flex-wrap: wrap; 
@@ -44,15 +43,26 @@
     height: 80%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
+}
+
+.skill-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .skill-icon {
+  display: flex;
+  justify-content: space-around;
     font-size: 3rem;
     width: 100%;
 }
 
 .skillH4 {
+  display: flex;
     text-align: center;
 }
 

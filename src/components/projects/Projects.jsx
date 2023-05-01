@@ -7,7 +7,7 @@ const Projects = ({id}) => {
   const projects = [
     {
       projectName: 'Brunch',
-      img: 'https://i.imgur.com/OxjWHZH.png',
+      img: 'https://i.imgur.com/oEv5WDL.png',
       technologyUsed: 'JavaScript | PostgreSQL | Express | React | Node',
       description: 'This application has User Authentication and shows various restuarnats throughout Lake Ozark, Missouri.',
       links: {

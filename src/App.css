@@ -2,12 +2,10 @@
 .app {
   height: auto;
   width: 100%;
-  background: linear-gradient( #fdbb2d 45%, #22c1c3 55% );
+  /* background: linear-gradient( #6a05f5 45%, #008dff 55% ); */
+  background: linear-gradient(85deg, rgba(80,4,184,1) 0%, rgba(00,106,191,1) 100%);
   overflow-x: hidden;
-  
 }
-
-/* Break Points */
 
 
 
