@@ -5,6 +5,7 @@
 }
 
 .header-div {
+  color: rgba(255,255,255,0.9);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,21 +45,21 @@ h3 {
 .header-linkdin-icon {
     margin: 1.25rem;
     font-size: 50px;
-    color: #181717;
+    color: rgba(255,255,255,1);
 }
 
 .header-linkdin-icon:hover {
-    color: #6a05f5;
+    color: #06f754;
 }
 
 .header-github-icon {
     margin: 1.25rem;
     font-size: 50px;
-    color: #181717
+    color: rgba(255,255,255,1)
 }
 
 .header-github-icon:hover {
-    color: #6a05f5;
+    color: #06f754;
 }
 
 .header-image {
@@ -67,10 +68,11 @@ h3 {
     height: 40vh;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,1);
 }
 
 .scroll-button {
+    color: rgba(255,255,255,0.9);
     margin-top: 2rem;
     margin-bottom: 3rem;
     font-size: 20px;
@@ -78,7 +80,7 @@ h3 {
 
 .scroll-button:hover {
     transform: scale(1.5);
-    color: #181717;
+    color: rgba(255,255,255,1);
     cursor: pointer;
 }
 
