@@ -151,9 +151,9 @@ textarea#message {
 }
 
 @media only screen and (max-width: 414px) {
-    .contact-page {
+    /* .contact-page {
       height: auto;
-    }
+    } */
 
     .contact-title-div h1 {
         margin-top: 0;
