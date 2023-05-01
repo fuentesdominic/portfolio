@@ -132,7 +132,7 @@ textarea#message {
 /* Break Points */
 @media screen and (max-width: 360px) {
     .contact-div {
-        height: 70vh !important;
+        height: 80vh !important;
     }
     
     .contact-form-div {
@@ -140,9 +140,9 @@ textarea#message {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .contact-div {
-        height: 75vh !important;
+        height: 80vh !important;
     }
 
     .contact-form-div {
@@ -151,9 +151,9 @@ textarea#message {
 }
 
 @media only screen and (max-width: 414px) {
-    /* .contact-page {
-      height: auto;
-    } */
+    .contact-div {
+      height: 80vh;
+    }
 
     .contact-title-div h1 {
         margin-top: 0;
