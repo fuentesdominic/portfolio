@@ -3,7 +3,7 @@
     padding: 1.5rem;
     display: flex;
     justify-content: center;
-
+    position: fixed 100%;
 }
 
 .nav-items {
@@ -43,7 +43,7 @@
 
 /* galaxy fold */
 @media screen
-    and (max-width: 280px) {
+    and (min-width: 280px) {
 
     .nav {
         display: flex;
@@ -59,11 +59,11 @@
 
 /* galaxy s8+ */
 @media screen 
-    and (max-width: 360px)
+    and (min-width: 340px)
      {
         .item {
-            margin: 0.5rem ;
-            font-size: 16px ;
+            margin: 0.8rem ;
+            font-size: 16px !important;
         }   
     }
 
@@ -113,6 +113,8 @@
     and (max-width: 414px)
   {
     .nav {
+        position: fixed;
+        width: 97%;
         display: flex;
         justify-self: center;
         padding: 0.5rem;
@@ -127,7 +129,7 @@
       
       .item {
         margin: 0.5rem;
-        font-size: 18px;
+        font-size: 16px;
       }
       
   }
