@@ -1,5 +1,7 @@
 import './SideBar.css';
 import { Link } from 'react-router-dom';
+import pdf from '../../assets/resume.pdf';
+
 
 const SideBar = ({ onNavClick }) => {
 
@@ -11,7 +13,7 @@ const SideBar = ({ onNavClick }) => {
         <Link className='item' onClick={() => onNavClick('about')}>About</Link>
         <Link className='item' onClick={() => onNavClick('projects')}>Projects</Link>
         <Link className='item' onClick={() => onNavClick('contact')}>Contact</Link>
-        <button className='resume-btn'><a className='item' href='https://docs.google.com/document/d/13EZzbupTfKS3CSzTydAIo1M4spQxeOgnOvWgXOXrKig/edit?usp=sharing' target='_blank' rel='noreferrer'>Resume</a></button>
+        <button className='resume-btn'><a className='item' href={pdf} target='_blank' rel='noreferrer'>Resume</a></button>
 
       </div>
     </nav>
