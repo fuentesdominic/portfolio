@@ -67,46 +67,12 @@
         }   
     }
 
-/* iphone se */
-/* @media screen 
-    and (max-width: 375px)
-{
-    .nav {
-        display: flex;
-        justify-self: center;
-        padding: 0.5rem;
-      }
-      
-      .nav-items {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-      }
-      
-      .item {
-        margin: 0.4rem;
-        font-size: 18px;
-      }    
-    
-} */
-
-/* iphone 12pro */
-/* @media screen 
-    and (max-width: 390px) {
-        .item {
-            margin: 0.5rem;
-        }
-    } */
-
-/* galaxy s20 ultra */
-/* @media screen
-    and (max-width: 412px) {
+@media screen and (min-width:360px) {
     .item {
-        margin: 0.6rem;
-        font-size: 18px;
+        
+        font-size: 18px !important;
     }
-}  */
+}
 
 /* iphone xr */
 @media screen 
@@ -134,41 +100,4 @@
       
   }
 
-/* surface duo */
-/* @media screen
-    and (max-width: 540px) {
-
-    .nav {
-        display: flex;
-        justify-self: center;
-        padding: 1.25rem;
-      }
-
-    .item {
-        margin: 0.5rem;
-        font-size: 20px;
-    }
-} */
-
-/* surface pro 7 */
- /* @media screen
-    and (max-width: 912px) {
-    .item {
-        margin: 0.5rem;
-        font-size: 25px;
-    }
-} */
-
-/* @media only screen
-    and (max-width: 1280px) {
-
-    .nav-large {
-        padding: 1.75rem;
-    }
-
-    .item {
-        margin: 0.75rem;
-        font-size: 24px;
-    }
-}   */
 

@@ -38,6 +38,9 @@
     flex-wrap: wrap; 
     justify-content: center;
     margin: 0.3rem;
+    /* background-color: rgba(255,255,255,.2); */
+    /* box-shadow: 0px 0px 5px rgba(0,0,0,1);
+    border-radius: 10px */
 }
 
 .skill-card-skills {
@@ -58,13 +61,15 @@
 .skill-icon {
   display: flex;
   justify-content: space-around;
-    font-size: 3rem;
-    width: 100%;
+  font-size: 3rem;
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
 .skillH4 {
   display: flex;
     text-align: center;
+    /* margin: 0.5rem; */
 }
 
 .skill-title-text {
