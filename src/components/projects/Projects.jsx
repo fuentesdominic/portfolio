@@ -36,6 +36,16 @@ const Projects = ({id}) => {
       }
     },
     {
+      projectName: 'Metric Conversion',
+      img: 'https://i.imgur.com/Go0pyMW.png',
+      technologyUsed: 'JavaScript | HTML | CSS',
+      description: 'A simple but useful tool that converts metric-to-imperial and vice versa.',
+      links: {
+        github: 'https://github.com/fuentesdominic/metric-conversion',
+        live: 'https://metric-conversion.vercel.app/'
+      }
+    },
+    {
       projectName: 'Coding Coasters',
       img: 'https://i.imgur.com/v5sydFw.png',
       technologyUsed: 'JavaScript | MongoDB | Express | React | Node',
