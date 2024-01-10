@@ -31,7 +31,7 @@ const Header = ({ onNavClick }) => {
           </a>
         </div>
         <div className='header-image-div'>
-          <img className='header-image' src='https://i.imgur.com/ZZfDl7W.jpeg' alt='' /> 
+          <img className='header-image' src='https://i.imgur.com/TpT7Swq.png' alt='' /> 
         </div>
           <Link className='scroll-button' onClick={() => onNavClick('about')}><SlArrowDown /></Link>
     </div>
